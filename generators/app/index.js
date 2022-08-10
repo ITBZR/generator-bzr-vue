@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Author: BZR
  * @Date: 2022-08-10 10:18:42
- * @LastEditTime: 2022-08-10 11:40:19
+ * @LastEditTime: 2022-08-10 11:43:58
  */
 const Generator = require('yeoman-generator')
 
@@ -32,7 +32,6 @@ module.exports = class extends Generator {
             'tsconfig.json',
             'tsconfig.node.json',
             'vite.config.ts',
-            'yarn.lock',
             'src/assets/logo.png',
             'src/components/common/demo.tsx',
             'src/router/index.ts',
