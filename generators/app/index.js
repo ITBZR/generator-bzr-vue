@@ -2,7 +2,7 @@
  * @Descripttion: 
  * @Author: BZR
  * @Date: 2022-08-10 10:18:42
- * @LastEditTime: 2022-08-10 11:29:31
+ * @LastEditTime: 2022-08-10 11:40:19
  */
 const Generator = require('yeoman-generator')
 
@@ -23,7 +23,6 @@ module.exports = class extends Generator {
         const templateList = [
             'public/favicon.ico',
             '.eslintrc.js',
-            '.gitignore',
             '.prettierrc',
             'index.html',
             'package.json',
